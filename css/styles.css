@@ -68,6 +68,10 @@ ul {
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
+.header-nav-container {
+  display: flex;
+  align-items: center;
+}
 .header-logo {
   margin-right: 93px;
 }
@@ -285,11 +289,11 @@ ul {
 .btn:last-child {
   margin-right: 0;
 }
-
-.btn-filter-current,
-.btn-filter:hover {
+.btn-filter:hover,
+.btn-filter:focus {
   background-color: var(--acent-txt-cl);
 }
+
 .btn-filter {
   font-family: Roboto;
   font-style: normal;
@@ -300,6 +304,9 @@ ul {
   background-color: #f5f4fa;
   border-radius: 4px;
   border: none;
+}
+.btn-filter-current {
+  background-color: var(--acent-txt-cl);
 }
 .portfolio-list {
   display: flex;
