@@ -20,8 +20,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin: auto;
   outline: 2px solid red;
   outline-offset: -2px;
 }
@@ -54,6 +53,9 @@ ul {
   display: flex;
   align-items: center;
 }
+.header-logo {
+  margin-right: 93px;
+}
 .header-nav {
   margin-right: auto;
 }
@@ -72,8 +74,6 @@ ul {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  margin-left: 215px;
-  margin-right: 93px;
 }
 .white-logo {
   color: #ffffff;
@@ -119,6 +119,9 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  width: 696px;
+  margin: auto;
+  text-align: center;
 }
 .btn-service {
   font-family: var(--main-font);
@@ -141,8 +144,14 @@ ul {
   opacity: 0;
 }
 /* about section */
+.about-item {
+  width: 270px;
+}
+
 .about-container {
   display: flex;
+  gap: 30px;
+  margin: auto;
 }
 .about-list-tittle {
   font-weight: 700;
@@ -150,6 +159,7 @@ ul {
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .about-description {
   font-size: 14px;
@@ -157,14 +167,26 @@ ul {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/* Work section */
 .about-tittle {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 50px;
+}
+.work-list {
+  display: flex;
+  gap: 30px;
+  margin: auto;
 }
 /* Team section */
+.team-list {
+  display: flex;
+  margin: auto;
+  gap: 30px;
+}
 .team {
   background-color: #f5f4fa;
 }
@@ -174,6 +196,8 @@ ul {
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .position {
   font-size: 16px;
@@ -181,10 +205,21 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 30px;
+}
+.team-list-container {
+  background-color: #ffffff;
 }
 /* Footer section */
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer {
   background-color: var(--dark-bg-cl);
+}
+.footer-list {
+  margin-top: 20px;
 }
 .footer-addres {
   font-size: 14px;

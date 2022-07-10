@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Web Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts start -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Fonts end -->
+    <!-- Normalize start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Normalize end -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header section -->
     <header class="header">
-      <div class="container">
-      <nav class="header-nav">
-        <a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <div class="container header-container">
+      <nav class="header-nav header-container">
+        <a class="logo link header-logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
         <ul class="header-list list">
           <li class="header-item">
             <a class="header-link link" href="./index.html">Студия</a>
@@ -32,11 +37,11 @@
         </ul>
       </nav>
       <ul class="header-contacts list">
-        <li class="contact-item">
-          <a class="header-phone link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <li class="contact-item header-mail">
+          <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="contact-item">
-          <a class="header-btn link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <li class="contact-item header-phone">
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
       </div>
@@ -129,8 +134,8 @@
     </main>
     <!-- Footer section -->
     <footer class="footer">
-      <div class="container">
-      <a class="logo white-logo link" href="./index.html"
+      <div class="container footer-container">
+      <a class="logo white-logo link footer-logo" href="./index.html"
         ><span class="logo-accent">Web</span>Studio</a
       >
       <address class="footer-addres">
@@ -152,7 +157,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
-    </div>
   </body>
 </html>
