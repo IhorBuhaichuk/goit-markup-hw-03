@@ -22,6 +22,9 @@ body {
   padding-right: 15px;
   margin: auto;
 }
+.portfolio-container {
+  padding-bottom: 94px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -68,7 +71,7 @@ ul {
   align-items: center;
   border-bottom: 1px solid #ececec;
 }
-.header-nav-container {
+.header-nav-items {
   display: flex;
   align-items: center;
 }
