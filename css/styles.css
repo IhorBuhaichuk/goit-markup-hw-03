@@ -216,6 +216,13 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.employee-list {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-top: none;
+}
 .employee {
   font-weight: 500;
   font-size: 16px;
@@ -230,13 +237,6 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.employee-list {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border-top: none;
 }
 .team-list-container {
   background-color: #ffffff;
@@ -284,7 +284,6 @@ ul {
   margin: auto;
   justify-content: center;
   margin-bottom: 50px;
-  margin-top: 94px;
 }
 .btn {
   margin-right: 8px;
